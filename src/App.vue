@@ -3,6 +3,8 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <a href="/first-app">First App</a> |
+      <a href="/second-app">Second App</a>
     </nav>
     <router-view/>
   </div>
@@ -30,3 +32,5 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script setup>
+</script>
